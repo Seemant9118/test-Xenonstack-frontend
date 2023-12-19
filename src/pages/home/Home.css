@@ -1,0 +1,35 @@
+.bodyContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    overflow: hidden;
+}
+
+.leftContainer{
+    width: 50%;
+}
+
+.leftContainer>img{
+    height: 500px;
+    width: fit-content;
+}
+
+.rightContainer{
+    width: 50%;
+    background-color: rgba(211, 211, 211, 0.532);
+    padding: 20px;
+}
+
+
+@media screen and (max-width:420px){
+    .bodyContainer{
+        flex-direction: column;
+    }
+    .leftContainer{
+        width: 100%;
+    }
+    .rightContainer{
+        width: 100%;
+    }
+}

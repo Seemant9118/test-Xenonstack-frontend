@@ -1,0 +1,14 @@
+.products{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 5rem;
+}
+
+@media screen and (max-width:720px) {
+    .products{
+        display: flex;
+        flex-direction: column;
+    }
+}

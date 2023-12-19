@@ -1,0 +1,44 @@
+.registration {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.redirect-to-login {
+    margin-top: 10px;
+    padding: 2px;
+    color: rgb(5, 97, 18);
+}
+
+.successBox {
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid green;
+    padding: 5px;
+    margin-bottom: 12px;
+    background-color: rgb(191, 255, 207);
+    color: green;
+}
+
+.errorBox {
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid red;
+    padding: 5px;
+    margin-bottom: 12px;
+    background-color: rgb(249, 162, 162);
+    color: red;
+}
+
+@media (min-width:768px) {
+    .registrationPage {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .form {
+        width: 80%;
+    }
+}
