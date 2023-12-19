@@ -1,70 +1,83 @@
-# Getting Started with Create React App
+# Ecommerce Web App README.md
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the Ecommerce Web App repository. This project was created by Seemant Kamlapuri.
 
-## Available Scripts
+## Live Link🎉
+https://beautiful-torte-a04a3c.netlify.app/
 
-In the project directory, you can run:
+## Backend repo 🔙
+https://github.com/Seemant9118/test-xenonstack-backend
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. **User Registration & Login**: 
+    - Users can register using their email and password.
+    - Authentication is implemented using JWT (JSON Web Tokens) to ensure secure access.
 
-### `npm test`
+2. **Contact Us Page**:
+    - A dedicated page where users can fill in their details and send messages or queries.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+3. **Additional Pages**:
+    - **Home Page**: The landing page showcasing featured products or announcements.
+    - **About Page**: Information about the ecommerce website or company.
+    - **Products Page**: Display of various products available for purchase.
 
-### `npm run build`
+## Tech Stack
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Frontend**: React JS
+- **Backend**: Node JS, Express JS
+- **Database**: MongoDB
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Setup Instructions
 
-### `npm run eject`
+1. **Clone the Repository**:
+    ```bash
+    git clone [repository_url]
+    ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2. **Navigate to Project Directory**:
+    ```bash
+    cd ecommerce-web-app
+    ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. **Install Dependencies**:
+    - For frontend:
+        ```bash
+        cd client && npm install
+        ```
+    - For backend:
+        ```bash
+        cd server && npm install
+        ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+4. **Database Configuration**:
+    - Ensure MongoDB is installed and running.
+    - Update database connection configurations in the server's `.env` file if necessary.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+5. **Run the Application**:
+    - For frontend:
+        ```bash
+        cd client && npm start
+        ```
+    - For backend:
+        ```bash
+        cd server && npm start
+        ```
 
-## Learn More
+6. **Open in Browser**:
+    - Frontend: `[http://localhost:3000](https://beautiful-torte-a04a3c.netlify.app/)`
+    - Backend: `[http://localhost:5000](https://mernappbackend-esxm.onrender.com)`
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Contributions
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Contributions are welcome! If you have suggestions or find issues, please raise them in the Issues section of this repository.
 
-### Code Splitting
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+This project is licensed under the [MIT License](LICENSE).
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Thank you for checking out the Ecommerce Web App README. Happy coding!
